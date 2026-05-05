@@ -1,0 +1,6250 @@
+[
+  {
+    "rank": "1",
+    "name": "清华大学",
+    "english_name": "Tsinghua University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "2",
+    "name": "北京大学",
+    "english_name": "Peking University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "3",
+    "name": "浙江大学",
+    "english_name": "Zhejiang University",
+    "province": "浙江",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "4",
+    "name": "上海交通大学",
+    "english_name": "Shanghai Jiao Tong University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "5",
+    "name": "复旦大学",
+    "english_name": "Fudan University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "6",
+    "name": "南京大学",
+    "english_name": "Nanjing University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "7",
+    "name": "中国科学技术大学",
+    "english_name": "University of Science and Technology of China",
+    "province": "安徽",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "8",
+    "name": "武汉大学",
+    "english_name": "Wuhan University",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "9",
+    "name": "华中科技大学",
+    "english_name": "Huazhong University of Science and Technology",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "10",
+    "name": "西安交通大学",
+    "english_name": "Xi'an Jiaotong University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "11",
+    "name": "北京航空航天大学",
+    "english_name": "Beihang University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "12",
+    "name": "中山大学",
+    "english_name": "Sun Yat-sen University",
+    "province": "广东",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "13",
+    "name": "北京理工大学",
+    "english_name": "Beijing Institute of Technology",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "14",
+    "name": "哈尔滨工业大学",
+    "english_name": "Harbin Institute of Technology",
+    "province": "黑龙江",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "15",
+    "name": "四川大学",
+    "english_name": "Sichuan University",
+    "province": "四川",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "16",
+    "name": "东南大学",
+    "english_name": "Southeast University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "17",
+    "name": "中国人民大学",
+    "english_name": "Renmin University of China",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "18",
+    "name": "同济大学",
+    "english_name": "Tongji University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "19",
+    "name": "北京师范大学",
+    "english_name": "Beijing Normal University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "20",
+    "name": "天津大学",
+    "english_name": "Tianjin University",
+    "province": "天津",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "21",
+    "name": "西北工业大学",
+    "english_name": "Northwestern Polytechnical University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "22",
+    "name": "山东大学",
+    "english_name": "Shandong University",
+    "province": "山东",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "23",
+    "name": "南开大学",
+    "english_name": "Nankai University",
+    "province": "天津",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "24",
+    "name": "厦门大学",
+    "english_name": "Xiamen University",
+    "province": "福建",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "25",
+    "name": "中国农业大学",
+    "english_name": "China Agricultural University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "26",
+    "name": "吉林大学",
+    "english_name": "Jilin University",
+    "province": "吉林",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "27",
+    "name": "中南大学",
+    "english_name": "Central South University",
+    "province": "湖南",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "28",
+    "name": "大连理工大学",
+    "english_name": "Dalian University of Technology",
+    "province": "辽宁",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "29",
+    "name": "湖南大学",
+    "english_name": "Hunan University",
+    "province": "湖南",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "30",
+    "name": "华东师范大学",
+    "english_name": "East China Normal University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "31",
+    "name": "华南理工大学",
+    "english_name": "South China University of Technology",
+    "province": "广东",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "32",
+    "name": "南方科技大学",
+    "english_name": "Southern University of Science and Technology",
+    "province": "广东",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "33",
+    "name": "电子科技大学",
+    "english_name": "University of Electronic Science and Technology of China",
+    "province": "四川",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "34",
+    "name": "重庆大学",
+    "english_name": "Chongqing University",
+    "province": "重庆",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "35",
+    "name": "北京科技大学",
+    "english_name": "University of Science and Technology Beijing",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "36",
+    "name": "南京航空航天大学",
+    "english_name": "Nanjing University of Aeronautics and Astronautics",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "37",
+    "name": "东北大学",
+    "english_name": "Northeastern University",
+    "province": "辽宁",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "38",
+    "name": "南京理工大学",
+    "english_name": "Nanjing University of Science and Technology",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "39",
+    "name": "兰州大学",
+    "english_name": "Lanzhou University",
+    "province": "甘肃",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "40",
+    "name": "西安电子科技大学",
+    "english_name": "Xidian University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "41",
+    "name": "上海科技大学",
+    "english_name": "ShanghaiTech University",
+    "province": "上海",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "42",
+    "name": "北京交通大学",
+    "english_name": "Beijing Jiaotong University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "43",
+    "name": "哈尔滨工程大学",
+    "english_name": "Harbin Engineering University",
+    "province": "黑龙江",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "44",
+    "name": "华东理工大学",
+    "english_name": "East China University of Science and Technology",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "45",
+    "name": "东北师范大学",
+    "english_name": "Northeast Normal University",
+    "province": "吉林",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "46",
+    "name": "苏州大学",
+    "english_name": "Soochow University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "47",
+    "name": "华中农业大学",
+    "english_name": "Huazhong Agricultural University",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "48",
+    "name": "武汉理工大学",
+    "english_name": "Wuhan University of Technology",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "48",
+    "name": "中国石油大学（北京）",
+    "english_name": "China University of Petroleum, Beijing",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "50",
+    "name": "郑州大学",
+    "english_name": "Zhengzhou University",
+    "province": "河南",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "51",
+    "name": "江南大学",
+    "english_name": "Jiangnan University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "52",
+    "name": "西南交通大学",
+    "english_name": "Southwest Jiaotong University",
+    "province": "四川",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "53",
+    "name": "南京农业大学",
+    "english_name": "Nanjing Agricultural University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "54",
+    "name": "中国地质大学（武汉）",
+    "english_name": "China University of Geosciences",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "55",
+    "name": "暨南大学",
+    "english_name": "Jinan University",
+    "province": "广东",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "56",
+    "name": "华中师范大学",
+    "english_name": "Central China Normal University",
+    "province": "湖北",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "56",
+    "name": "中国海洋大学",
+    "english_name": "Ocean University of China",
+    "province": "山东",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "58",
+    "name": "南京师范大学",
+    "english_name": "Nanjing Normal University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "59",
+    "name": "中国矿业大学",
+    "english_name": "China University of Mining and Technology",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "60",
+    "name": "北京邮电大学",
+    "english_name": "Beijing University of Posts and Telecommunications",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "61",
+    "name": "上海大学",
+    "english_name": "Shanghai University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "62",
+    "name": "浙江工业大学",
+    "english_name": "Zhejiang University of Technology",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "63",
+    "name": "北京化工大学",
+    "english_name": "Beijing University of Chemical Technology",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "64",
+    "name": "河海大学",
+    "english_name": "Hohai University",
+    "province": "江苏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "65",
+    "name": "陕西师范大学",
+    "english_name": "Shaanxi Normal University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "66",
+    "name": "西南大学",
+    "english_name": "Southwest University",
+    "province": "重庆",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "67",
+    "name": "中国石油大学（华东）",
+    "english_name": "China University of Petroleum (East China)",
+    "province": "山东",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "68",
+    "name": "深圳大学",
+    "english_name": "Shenzhen University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "69",
+    "name": "云南大学",
+    "english_name": "Yunnan University",
+    "province": "云南",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "70",
+    "name": "西北大学",
+    "english_name": "Northwest University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "71",
+    "name": "西北农林科技大学",
+    "english_name": "Northwest A&F University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "985",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "72",
+    "name": "北京工业大学",
+    "english_name": "Beijing University of Technology",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "73",
+    "name": "南昌大学",
+    "english_name": "Nanchang University",
+    "province": "江西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "74",
+    "name": "东华大学",
+    "english_name": "Donghua University",
+    "province": "上海",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "75",
+    "name": "中国地质大学（北京）",
+    "english_name": "China University of Geosciences Beijing",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "76",
+    "name": "中国矿业大学（北京）",
+    "english_name": "China University of Mining & Technology-Beijing",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "77",
+    "name": "福州大学",
+    "english_name": "Fuzhou University",
+    "province": "福建",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "78",
+    "name": "宁波大学",
+    "english_name": "Ningbo University",
+    "province": "浙江",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "79",
+    "name": "合肥工业大学",
+    "english_name": "Hefei University of Technology",
+    "province": "安徽",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "80",
+    "name": "华南师范大学",
+    "english_name": "South China Normal University",
+    "province": "广东",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "81",
+    "name": "南京邮电大学",
+    "english_name": "Nanjing University of Posts and Telecommunications",
+    "province": "江苏",
+    "tags": [
+      "双一流"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "82",
+    "name": "江苏大学",
+    "english_name": "Jiangsu University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "83",
+    "name": "华北电力大学",
+    "english_name": "North China Electric Power University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "84",
+    "name": "长安大学",
+    "english_name": "Chang'an University",
+    "province": "陕西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "85",
+    "name": "北京林业大学",
+    "english_name": "Beijing Forestry University",
+    "province": "北京",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "86",
+    "name": "贵州大学",
+    "english_name": "Guizhou University",
+    "province": "贵州",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "87",
+    "name": "福建师范大学",
+    "english_name": "Fujian Normal University",
+    "province": "福建",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "88",
+    "name": "湖南师范大学",
+    "english_name": "Hunan Normal University",
+    "province": "湖南",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "89",
+    "name": "广西大学",
+    "english_name": "Guangxi University",
+    "province": "广西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "90",
+    "name": "南京林业大学",
+    "english_name": "Nanjing Forestry University",
+    "province": "江苏",
+    "tags": [
+      "双一流"
+    ],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "91",
+    "name": "扬州大学",
+    "english_name": "Yangzhou University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "92",
+    "name": "浙江师范大学",
+    "english_name": "Zhejiang Normal University",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "93",
+    "name": "海南大学",
+    "english_name": "Hainan University",
+    "province": "海南",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "94",
+    "name": "南京工业大学",
+    "english_name": "Nanjing Tech University",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "95",
+    "name": "南京信息工程大学",
+    "english_name": "Nanjing University of Information Science & Technology",
+    "province": "江苏",
+    "tags": [
+      "双一流"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "96",
+    "name": "广东工业大学",
+    "english_name": "Guangdong University of Technology",
+    "province": "广东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "97",
+    "name": "杭州电子科技大学",
+    "english_name": "Hangzhou Dianzi University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "98",
+    "name": "安徽大学",
+    "english_name": "Anhui University",
+    "province": "安徽",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "99",
+    "name": "首都师范大学",
+    "english_name": "Capital Normal University",
+    "province": "北京",
+    "tags": [
+      "双一流"
+    ],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "100",
+    "name": "华南农业大学",
+    "english_name": "South China Agricultural University",
+    "province": "广东",
+    "tags": [
+      "双一流"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "101",
+    "name": "山西大学",
+    "english_name": "Shanxi University",
+    "province": "山西",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "102",
+    "name": "河南大学",
+    "english_name": "Henan University",
+    "province": "河南",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "103",
+    "name": "太原理工大学",
+    "english_name": "Taiyuan University of Technology",
+    "province": "山西",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "104",
+    "name": "山东师范大学",
+    "english_name": "Shandong Normal University",
+    "province": "山东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "105",
+    "name": "广州大学",
+    "english_name": "Guangzhou University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "106",
+    "name": "浙江理工大学",
+    "english_name": "Zhejiang Sci-Tech University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "107",
+    "name": "湘潭大学",
+    "english_name": "Xiangtan University",
+    "province": "湖南",
+    "tags": [
+      "双一流"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "108",
+    "name": "上海理工大学",
+    "english_name": "University of Shanghai for Science and Technology",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "109",
+    "name": "河北工业大学",
+    "english_name": "Hebei University of Technology",
+    "province": "河北",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "110",
+    "name": "大连海事大学",
+    "english_name": "Dalian Maritime University",
+    "province": "辽宁",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "111",
+    "name": "青岛大学",
+    "english_name": "Qingdao University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "112",
+    "name": "燕山大学",
+    "english_name": "Yanshan University",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "113",
+    "name": "东北林业大学",
+    "english_name": "Northeast Forestry University",
+    "province": "黑龙江",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "114",
+    "name": "杭州师范大学",
+    "english_name": "Hangzhou Normal University",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "115",
+    "name": "西安建筑科技大学",
+    "english_name": "Xi'an University of Architecture and Technology",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "116",
+    "name": "湖北大学",
+    "english_name": "Hubei University",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "117",
+    "name": "昆明理工大学",
+    "english_name": "Kunming University of Science and Technology",
+    "province": "云南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "118",
+    "name": "内蒙古大学",
+    "english_name": "Inner Mongolia University",
+    "province": "内蒙古",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "119",
+    "name": "西安理工大学",
+    "english_name": "Xi'an University of Technology",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "120",
+    "name": "武汉科技大学",
+    "english_name": "Wuhan University of Science and Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "121",
+    "name": "江西师范大学",
+    "english_name": "Jiangxi Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "122",
+    "name": "东北农业大学",
+    "english_name": "Northeast Agricultural University",
+    "province": "黑龙江",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "122",
+    "name": "西南石油大学",
+    "english_name": "Southwest Petroleum University",
+    "province": "四川",
+    "tags": [
+      "双一流"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "124",
+    "name": "上海师范大学",
+    "english_name": "Shanghai Normal University",
+    "province": "上海",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "125",
+    "name": "福建农林大学",
+    "english_name": "Fujian Agriculture and Forestry University",
+    "province": "福建",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "126",
+    "name": "温州大学",
+    "english_name": "Wenzhou University",
+    "province": "浙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "127",
+    "name": "长沙理工大学",
+    "english_name": "Changsha University of Science and Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "127",
+    "name": "新疆大学",
+    "english_name": "Xinjiang University",
+    "province": "新疆",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "129",
+    "name": "河北大学",
+    "english_name": "Hebei University",
+    "province": "河北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "130",
+    "name": "山东科技大学",
+    "english_name": "Shandong University of Science and Technology",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "131",
+    "name": "辽宁大学",
+    "english_name": "Liaoning University",
+    "province": "辽宁",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "132",
+    "name": "成都理工大学",
+    "english_name": "Chengdu University of Technology",
+    "province": "四川",
+    "tags": [
+      "双一流"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "133",
+    "name": "山东农业大学",
+    "english_name": "Shandong Agricultural University",
+    "province": "山东",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "134",
+    "name": "宁夏大学",
+    "english_name": "Ningxia University",
+    "province": "宁夏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "135",
+    "name": "华侨大学",
+    "english_name": "Huaqiao University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "135",
+    "name": "陕西科技大学",
+    "english_name": "Shaanxi University of Science and Technology",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "137",
+    "name": "天津工业大学",
+    "english_name": "Tiangong University",
+    "province": "天津",
+    "tags": [
+      "双一流"
+    ],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "138",
+    "name": "长春理工大学",
+    "english_name": "Changchun University of Science and Technology",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "139",
+    "name": "安徽师范大学",
+    "english_name": "Anhui Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "140",
+    "name": "石河子大学",
+    "english_name": "Shihezi University",
+    "province": "新疆",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "141",
+    "name": "四川农业大学",
+    "english_name": "Sichuan Agricultural University",
+    "province": "四川",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "142",
+    "name": "天津师范大学",
+    "english_name": "Tianjin Normal University",
+    "province": "天津",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "143",
+    "name": "上海海洋大学",
+    "english_name": "Shanghai Ocean University",
+    "province": "上海",
+    "tags": [
+      "双一流"
+    ],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "144",
+    "name": "江苏科技大学",
+    "english_name": "Jiangsu University of Science and Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "145",
+    "name": "齐鲁工业大学",
+    "english_name": "Qilu University of Technology",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "146",
+    "name": "中国计量大学",
+    "english_name": "China Jiliang University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "147",
+    "name": "黑龙江大学",
+    "english_name": "Heilongjiang University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "148",
+    "name": "安徽农业大学",
+    "english_name": "Anhui Agricultural University",
+    "province": "安徽",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "148",
+    "name": "湖北工业大学",
+    "english_name": "Hubei University of Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "150",
+    "name": "浙江农林大学",
+    "english_name": "Zhejiang A&F University",
+    "province": "浙江",
+    "tags": [],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "151",
+    "name": "南通大学",
+    "english_name": "Nantong University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "152",
+    "name": "河南农业大学",
+    "english_name": "Henan Agricultural University",
+    "province": "河南",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "153",
+    "name": "重庆邮电大学",
+    "english_name": "Chongqing University of Posts and Telecommunications",
+    "province": "重庆",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "154",
+    "name": "常州大学",
+    "english_name": "Changzhou University",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "155",
+    "name": "广西师范大学",
+    "english_name": "Guangxi Normal University",
+    "province": "广西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "156",
+    "name": "湖南农业大学",
+    "english_name": "Hunan Agricultural University",
+    "province": "湖南",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "157",
+    "name": "曲阜师范大学",
+    "english_name": "Qufu Normal University",
+    "province": "山东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "158",
+    "name": "吉林农业大学",
+    "english_name": "Jilin Agricultural University",
+    "province": "吉林",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "159",
+    "name": "武汉纺织大学",
+    "english_name": "Wuhan Textile University",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "160",
+    "name": "武汉工程大学",
+    "english_name": "Wuhan Institute of Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "161",
+    "name": "河南师范大学",
+    "english_name": "Henan Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "162",
+    "name": "天津科技大学",
+    "english_name": "Tianjin University of Science and Technology",
+    "province": "天津",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "163",
+    "name": "辽宁师范大学",
+    "english_name": "Liaoning Normal University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "164",
+    "name": "江苏师范大学",
+    "english_name": "Jiangsu Normal University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "165",
+    "name": "北京建筑大学",
+    "english_name": "Beijing University of Civil Engineering and Architecture",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "166",
+    "name": "汕头大学",
+    "english_name": "Shantou University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "167",
+    "name": "集美大学",
+    "english_name": "Jimei University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "168",
+    "name": "青岛科技大学",
+    "english_name": "Qingdao University of Science and Technology",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "168",
+    "name": "三峡大学",
+    "english_name": "China Three Gorges University",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "168",
+    "name": "延边大学",
+    "english_name": "Yanbian University",
+    "province": "吉林",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "171",
+    "name": "沈阳农业大学",
+    "english_name": "Shenyang Agricultural University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "172",
+    "name": "河南科技大学",
+    "english_name": "Henan University of Science and Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "173",
+    "name": "中北大学",
+    "english_name": "North University of China",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "174",
+    "name": "济南大学",
+    "english_name": "University of Jinan",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "175",
+    "name": "华东交通大学",
+    "english_name": "East China Jiaotong University",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "176",
+    "name": "上海海事大学",
+    "english_name": "Shanghai Maritime University",
+    "province": "上海",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "177",
+    "name": "南昌航空大学",
+    "english_name": "Nanchang Hangkong University",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "178",
+    "name": "河北师范大学",
+    "english_name": "Hebei Normal University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "179",
+    "name": "西北师范大学",
+    "english_name": "Northwest Normal University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "180",
+    "name": "天津理工大学",
+    "english_name": "Tianjin University of Technology",
+    "province": "天津",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "181",
+    "name": "湖南科技大学",
+    "english_name": "Hunan University of Science and Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "182",
+    "name": "国际关系学院",
+    "english_name": "University of International Relations",
+    "province": "北京",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "183",
+    "name": "沈阳航空航天大学",
+    "english_name": "Shenyang Aerospace University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "184",
+    "name": "河南理工大学",
+    "english_name": "Henan Polytechnic University",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "185",
+    "name": "长江大学",
+    "english_name": "Yangtze University",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "186",
+    "name": "上海电力大学",
+    "english_name": "Shanghai University of Electric Power",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "187",
+    "name": "南华大学",
+    "english_name": "University of South China",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "187",
+    "name": "沈阳工业大学",
+    "english_name": "Shenyang University of Technology",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "189",
+    "name": "重庆交通大学",
+    "english_name": "Chongqing Jiaotong University",
+    "province": "重庆",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "190",
+    "name": "安徽工业大学",
+    "english_name": "Anhui University of Technology",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "190",
+    "name": "江西理工大学",
+    "english_name": "Jiangxi University of Science and Technology",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "192",
+    "name": "西安科技大学",
+    "english_name": "Xi'an University of Science and Technology",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "193",
+    "name": "安徽理工大学",
+    "english_name": "Anhui University of Science and Technology",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "194",
+    "name": "山东理工大学",
+    "english_name": "Shandong University of Technology",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "195",
+    "name": "西藏大学",
+    "english_name": "Tibet University",
+    "province": "西藏",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "196",
+    "name": "江西农业大学",
+    "english_name": "Jiangxi Agricultural University",
+    "province": "江西",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "197",
+    "name": "河北农业大学",
+    "english_name": "Hebei Agricultural University",
+    "province": "河北",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "198",
+    "name": "青海大学",
+    "english_name": "Qinghai University",
+    "province": "青海",
+    "tags": [
+      "双一流",
+      "211"
+    ],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "199",
+    "name": "兰州理工大学",
+    "english_name": "Lanzhou University of Technology",
+    "province": "甘肃",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "200",
+    "name": "西安邮电大学",
+    "english_name": "Xi'an University of Posts and Telecommunications",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "201",
+    "name": "桂林电子科技大学",
+    "english_name": "Guilin University of Electronic Technology",
+    "province": "广西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "201",
+    "name": "四川师范大学",
+    "english_name": "Sichuan Normal University",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "203",
+    "name": "云南师范大学",
+    "english_name": "Yunnan Normal University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "204",
+    "name": "北京信息科技大学",
+    "english_name": "Beijing Information Science & Technology University",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "205",
+    "name": "烟台大学",
+    "english_name": "Yantai University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "206",
+    "name": "苏州科技大学",
+    "english_name": "Suzhou University of Science and Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "207",
+    "name": "中南林业科技大学",
+    "english_name": "Central South University of Forestry & Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "208",
+    "name": "西南科技大学",
+    "english_name": "Southwest University of Science and Technology",
+    "province": "四川",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "209",
+    "name": "兰州交通大学",
+    "english_name": "Lanzhou Jiaotong University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "210",
+    "name": "青岛理工大学",
+    "english_name": "Qingdao University of Technology",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "211",
+    "name": "湖州师范学院",
+    "english_name": "Huzhou University",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "212",
+    "name": "西安工业大学",
+    "english_name": "Xi'an Technological University",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "213",
+    "name": "哈尔滨师范大学",
+    "english_name": "Harbin Normal University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "214",
+    "name": "东华理工大学",
+    "english_name": "East China University of Technology",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "215",
+    "name": "北方工业大学",
+    "english_name": "North China University of Technology",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "216",
+    "name": "北京电子科技学院",
+    "english_name": "Beijing Electronic Science and Technology Institute",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "217",
+    "name": "东北石油大学",
+    "english_name": "Northeast Petroleum University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "218",
+    "name": "重庆师范大学",
+    "english_name": "Chongqing Normal University",
+    "province": "重庆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "219",
+    "name": "沈阳建筑大学",
+    "english_name": "Shenyang Jianzhu University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "220",
+    "name": "内蒙古农业大学",
+    "english_name": "Inner Mongolia Agricultural University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "221",
+    "name": "内蒙古师范大学",
+    "english_name": "Inner Mongolia Normal University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "222",
+    "name": "大连工业大学",
+    "english_name": "Dalian Polytechnic University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "223",
+    "name": "石家庄铁道大学",
+    "english_name": "Shijiazhuang Tiedao University",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "224",
+    "name": "河南工业大学",
+    "english_name": "Henan University of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "225",
+    "name": "嘉兴大学",
+    "english_name": "Jiaxing University",
+    "province": "浙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "226",
+    "name": "海南师范大学",
+    "english_name": "Hainan Normal University",
+    "province": "海南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "227",
+    "name": "山西农业大学",
+    "english_name": "Shanxi Agricultural University",
+    "province": "山西",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "228",
+    "name": "青岛农业大学",
+    "english_name": "Qingdao Agricultural University",
+    "province": "山东",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "229",
+    "name": "东北电力大学",
+    "english_name": "Northeast Electric Power University",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "229",
+    "name": "浙江海洋大学",
+    "english_name": "Zhejiang Ocean University",
+    "province": "浙江",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "231",
+    "name": "浙江科技大学",
+    "english_name": "Zhejiang University of Science and Technology",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "232",
+    "name": "成都大学",
+    "english_name": "Chengdu University",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "233",
+    "name": "哈尔滨理工大学",
+    "english_name": "Harbin University of Science and Technology",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "234",
+    "name": "上海工程技术大学",
+    "english_name": "Shanghai University of Engineering Science",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "235",
+    "name": "西安石油大学",
+    "english_name": "Xi'an Shiyou University",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "236",
+    "name": "上海应用技术大学",
+    "english_name": "Shanghai Institute of Technology",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "237",
+    "name": "贵州师范大学",
+    "english_name": "Guizhou Normal University",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "238",
+    "name": "河北科技大学",
+    "english_name": "Hebei University of Science and Technology",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "239",
+    "name": "佛山大学",
+    "english_name": "Foshan University",
+    "province": "广东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "240",
+    "name": "青海师范大学",
+    "english_name": "Qinghai Normal University",
+    "province": "青海",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "241",
+    "name": "甘肃农业大学",
+    "english_name": "Gansu Agricultural University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "242",
+    "name": "东莞理工学院",
+    "english_name": "Dongguan University of Technology",
+    "province": "广东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "243",
+    "name": "中国民航大学",
+    "english_name": "Civil Aviation University of China",
+    "province": "天津",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "244",
+    "name": "重庆理工大学",
+    "english_name": "Chongqing University of Technology",
+    "province": "重庆",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "245",
+    "name": "华北水利水电大学",
+    "english_name": "North China University of Water Resources and Electric Power",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "246",
+    "name": "武汉轻工大学",
+    "english_name": "Wuhan Polytechnic University",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "247",
+    "name": "鲁东大学",
+    "english_name": "Ludong University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "248",
+    "name": "赣南师范大学",
+    "english_name": "Gannan Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "249",
+    "name": "山东建筑大学",
+    "english_name": "Shandong Jianzhu University",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "250",
+    "name": "江汉大学",
+    "english_name": "Jianghan University",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "251",
+    "name": "浙大城市学院",
+    "english_name": "Hangzhou City University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "252",
+    "name": "聊城大学",
+    "english_name": "Liaocheng University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "253",
+    "name": "沈阳化工大学",
+    "english_name": "Shenyang University of Chemical Technology",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "254",
+    "name": "桂林理工大学",
+    "english_name": "Guilin University of Technology",
+    "province": "广西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "255",
+    "name": "成都信息工程大学",
+    "english_name": "Chengdu University of Information Technology",
+    "province": "四川",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "256",
+    "name": "西安工程大学",
+    "english_name": "Xi'an Polytechnic University",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "256",
+    "name": "郑州轻工业大学",
+    "english_name": "Zhengzhou University of Light Industry",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "258",
+    "name": "安徽工程大学",
+    "english_name": "Anhui Polytechnic University",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "258",
+    "name": "西华师范大学",
+    "english_name": "China West Normal University",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "260",
+    "name": "大连交通大学",
+    "english_name": "Dalian Jiaotong University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "261",
+    "name": "南京工程学院",
+    "english_name": "Nanjing Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "262",
+    "name": "上海海关学院",
+    "english_name": "Shanghai Customs College",
+    "province": "上海",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "263",
+    "name": "辽宁石油化工大学",
+    "english_name": "Liaoning Petrochemical University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "264",
+    "name": "沈阳理工大学",
+    "english_name": "Shenyang Ligong University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "265",
+    "name": "绍兴文理学院",
+    "english_name": "Shaoxing University",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "266",
+    "name": "延安大学",
+    "english_name": "Yan'an University",
+    "province": "陕西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "267",
+    "name": "内蒙古工业大学",
+    "english_name": "Inner Mongolia University of Technology",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "267",
+    "name": "沈阳大学",
+    "english_name": "Shenyang University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "269",
+    "name": "厦门理工学院",
+    "english_name": "Xiamen University of Technology",
+    "province": "福建",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "270",
+    "name": "西华大学",
+    "english_name": "Xihua University",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "271",
+    "name": "长春工业大学",
+    "english_name": "Changchun University of Technology",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "272",
+    "name": "沈阳师范大学",
+    "english_name": "Shenyang Normal University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "273",
+    "name": "大连大学",
+    "english_name": "Dalian University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "273",
+    "name": "华北理工大学",
+    "english_name": "North China University of Science and Technology",
+    "province": "河北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "275",
+    "name": "安徽建筑大学",
+    "english_name": "Anhui Jianzhu University",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "276",
+    "name": "湖南工业大学",
+    "english_name": "Hunan University of Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "277",
+    "name": "井冈山大学",
+    "english_name": "Jinggangshan University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "278",
+    "name": "山西师范大学",
+    "english_name": "Shanxi Normal University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "279",
+    "name": "辽宁工程技术大学",
+    "english_name": "Liaoning Technical University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "280",
+    "name": "北京农学院",
+    "english_name": "Beijing University of Agriculture",
+    "province": "北京",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "281",
+    "name": "浙大宁波理工学院",
+    "english_name": "NingboTech University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "282",
+    "name": "福建理工大学",
+    "english_name": "Fujian University of Technology",
+    "province": "福建",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "283",
+    "name": "常熟理工学院",
+    "english_name": "Changshu Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "284",
+    "name": "中原工学院",
+    "english_name": "Zhongyuan University of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "285",
+    "name": "合肥大学",
+    "english_name": "Hefei University",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "286",
+    "name": "重庆科技大学",
+    "english_name": "Chongqing University of Science and Technology",
+    "province": "重庆",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "287",
+    "name": "渤海大学",
+    "english_name": "Bohai University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "288",
+    "name": "云南农业大学",
+    "english_name": "Yunnan Agricultural University",
+    "province": "云南",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "289",
+    "name": "台州学院",
+    "english_name": "Taizhou University",
+    "province": "浙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "290",
+    "name": "大理大学",
+    "english_name": "Dali University",
+    "province": "云南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "291",
+    "name": "太原科技大学",
+    "english_name": "Taiyuan University of Science and Technology",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "292",
+    "name": "黑龙江八一农垦大学",
+    "english_name": "Heilongjiang Bayi Agricultural University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "293",
+    "name": "宁波工程学院",
+    "english_name": "Ningbo University of Technology",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "294",
+    "name": "深圳技术大学",
+    "english_name": "Shenzhen Technology University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "295",
+    "name": "河北工程大学",
+    "english_name": "Hebei University of Engineering",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "296",
+    "name": "辽宁科技大学",
+    "english_name": "University of Science and Technology Liaoning",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "297",
+    "name": "北京联合大学",
+    "english_name": "Beijing Union University",
+    "province": "北京",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "297",
+    "name": "北京石油化工学院",
+    "english_name": "Beijing Institute of Petrochemical Technology",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "299",
+    "name": "新疆农业大学",
+    "english_name": "Xinjiang Agricultural University",
+    "province": "新疆",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "300",
+    "name": "吉首大学",
+    "english_name": "Jishou University",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "300",
+    "name": "辽宁工业大学",
+    "english_name": "Liaoning University of Technology",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "302",
+    "name": "北京印刷学院",
+    "english_name": "Beijing Institute of Graphic Communication",
+    "province": "北京",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "303",
+    "name": "闽南师范大学",
+    "english_name": "Minnan Normal University",
+    "province": "福建",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "304",
+    "name": "淮阴工学院",
+    "english_name": "Huaiyin Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "305",
+    "name": "闽江学院",
+    "english_name": "Minjiang University",
+    "province": "福建",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "306",
+    "name": "广东海洋大学",
+    "english_name": "Guangdong Ocean University",
+    "province": "广东",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "307",
+    "name": "信阳师范大学",
+    "english_name": "Xinyang Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "308",
+    "name": "河北地质大学",
+    "english_name": "Hebei GEO University",
+    "province": "河北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "309",
+    "name": "北华大学",
+    "english_name": "Beihua University",
+    "province": "吉林",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "310",
+    "name": "吉林师范大学",
+    "english_name": "Jilin Normal University",
+    "province": "吉林",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "311",
+    "name": "临沂大学",
+    "english_name": "Linyi University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "312",
+    "name": "淮北师范大学",
+    "english_name": "Huaibei Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "313",
+    "name": "大连海洋大学",
+    "english_name": "Dalian Ocean University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "314",
+    "name": "南宁师范大学",
+    "english_name": "Nanning Normal University",
+    "province": "广西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "315",
+    "name": "盐城工学院",
+    "english_name": "Yancheng Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "316",
+    "name": "吉林建筑大学",
+    "english_name": "Jilin Jianzhu University",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "317",
+    "name": "无锡学院",
+    "english_name": "Wuxi University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "318",
+    "name": "塔里木大学",
+    "english_name": "Tarim University",
+    "province": "新疆",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "319",
+    "name": "广东技术师范大学",
+    "english_name": "Guangdong Polytechnic Normal University",
+    "province": "广东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "320",
+    "name": "长沙学院",
+    "english_name": "Changsha University",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "321",
+    "name": "景德镇陶瓷大学",
+    "english_name": "Jingdezhen Ceramic University",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "322",
+    "name": "河南科技学院",
+    "english_name": "Henan Institute of Science and Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "322",
+    "name": "江苏海洋大学",
+    "english_name": "Jiangsu Ocean University",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "324",
+    "name": "天津城建大学",
+    "english_name": "Tianjin Chengjian University",
+    "province": "天津",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "325",
+    "name": "湖北师范大学",
+    "english_name": "Hubei Normal University",
+    "province": "湖北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "326",
+    "name": "贵州师范学院",
+    "english_name": "Guizhou Education University",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "327",
+    "name": "江西科技师范大学",
+    "english_name": "Jiangxi Science and Technology Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "328",
+    "name": "西南林业大学",
+    "english_name": "Southwest Forestry University",
+    "province": "云南",
+    "tags": [],
+    "type": "林业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "329",
+    "name": "五邑大学",
+    "english_name": "Wuyi University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "330",
+    "name": "内蒙古科技大学",
+    "english_name": "Inner Mongolia University of Science & Technology",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "331",
+    "name": "南京晓庄学院",
+    "english_name": "Nanjing XiaoZhuang University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "332",
+    "name": "长春师范大学",
+    "english_name": "Changchun Normal University",
+    "province": "吉林",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "333",
+    "name": "长江师范学院",
+    "english_name": "Yangtze Normal University",
+    "province": "重庆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "333",
+    "name": "重庆文理学院",
+    "english_name": "Chongqing University of Arts and Sciences",
+    "province": "重庆",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "335",
+    "name": "新疆师范大学",
+    "english_name": "Xinjiang Normal University",
+    "province": "新疆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "336",
+    "name": "安庆师范大学",
+    "english_name": "Anqing Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "336",
+    "name": "淮阴师范学院",
+    "english_name": "Huaiyin Normal University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "338",
+    "name": "浙江万里学院",
+    "english_name": "Zhejiang Wanli University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "339",
+    "name": "江苏理工学院",
+    "english_name": "Jiangsu University of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "340",
+    "name": "上海电机学院",
+    "english_name": "Shanghai Dianji University",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "341",
+    "name": "上海第二工业大学",
+    "english_name": "Shanghai Polytechnic University",
+    "province": "上海",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "342",
+    "name": "四川轻化工大学",
+    "english_name": "Sichuan University of Science and Engineering",
+    "province": "四川",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "343",
+    "name": "常州工学院",
+    "english_name": "Changzhou Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "344",
+    "name": "湖南理工学院",
+    "english_name": "Hunan Institute of Science and Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "345",
+    "name": "盐城师范学院",
+    "english_name": "Yancheng Teachers University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "346",
+    "name": "仲恺农业工程学院",
+    "english_name": "Zhongkai University of Agriculture and Engineering",
+    "province": "广东",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "347",
+    "name": "湖北汽车工业学院",
+    "english_name": "Hubei University of Automotive Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "348",
+    "name": "广西科技大学",
+    "english_name": "Guangxi University of Science and Technology",
+    "province": "广西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "348",
+    "name": "黄冈师范学院",
+    "english_name": "Huanggang Normal University",
+    "province": "湖北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "350",
+    "name": "江西水利电力大学",
+    "english_name": "Nanchang Institute of Technology",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "351",
+    "name": "榆林学院",
+    "english_name": "Yulin University",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "352",
+    "name": "金陵科技学院",
+    "english_name": "Jinling Institute of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "352",
+    "name": "山东交通学院",
+    "english_name": "Shandong Jiaotong University",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "354",
+    "name": "湖北第二师范学院",
+    "english_name": "Hubei University of Education",
+    "province": "湖北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "355",
+    "name": "徐州工程学院",
+    "english_name": "Xuzhou University of Technology",
+    "province": "江苏",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "356",
+    "name": "天津农学院",
+    "english_name": "Tianjin Agricultural University",
+    "province": "天津",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "357",
+    "name": "泉州师范学院",
+    "english_name": "Quanzhou Normal University",
+    "province": "福建",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "358",
+    "name": "湖北文理学院",
+    "english_name": "Hubei University of Arts and Science",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "359",
+    "name": "洛阳师范学院",
+    "english_name": "Luoyang Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "360",
+    "name": "天津职业技术师范大学",
+    "english_name": "TianJin University of Technology and Education",
+    "province": "天津",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "361",
+    "name": "陕西理工大学",
+    "english_name": "Shaanxi University of Technology",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "362",
+    "name": "湖南第一师范学院",
+    "english_name": "Hunan First Normal University",
+    "province": "湖南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "363",
+    "name": "合肥师范学院",
+    "english_name": "Hefei Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "364",
+    "name": "广东石油化工学院",
+    "english_name": "Guangdong University of Petrochemical Technology",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "365",
+    "name": "安徽科技学院",
+    "english_name": "Anhui Science and Technology University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "365",
+    "name": "绵阳师范学院",
+    "english_name": "Mianyang Teachers' College",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "367",
+    "name": "衢州学院",
+    "english_name": "Quzhou University",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "368",
+    "name": "贵阳学院",
+    "english_name": "Guiyang University",
+    "province": "贵州",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "369",
+    "name": "惠州学院",
+    "english_name": "Huizhou University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "370",
+    "name": "三明学院",
+    "english_name": "Sanming University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "371",
+    "name": "齐齐哈尔大学",
+    "english_name": "Qiqihar University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "372",
+    "name": "重庆三峡学院",
+    "english_name": "Chongqing Three Gorges University",
+    "province": "重庆",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "373",
+    "name": "长春工程学院",
+    "english_name": "Changchun Institute of Technology",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "373",
+    "name": "丽水学院",
+    "english_name": "Lishui University",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "375",
+    "name": "衡阳师范学院",
+    "english_name": "Hengyang Normal University",
+    "province": "湖南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "376",
+    "name": "西藏农牧学院",
+    "english_name": "Xizang Agricultural and Animal Husbandry University",
+    "province": "西藏",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "377",
+    "name": "攀枝花学院",
+    "english_name": "Panzhihua University",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "378",
+    "name": "湘南学院",
+    "english_name": "Xiangnan University",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "379",
+    "name": "长春大学",
+    "english_name": "Changchun University",
+    "province": "吉林",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "379",
+    "name": "铜仁学院",
+    "english_name": "Tongren University",
+    "province": "贵州",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "381",
+    "name": "湖北科技学院",
+    "english_name": "Hubei University of Science and Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "381",
+    "name": "洛阳理工学院",
+    "english_name": "Luoyang Institute of Science and Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "383",
+    "name": "中国民用航空飞行学院",
+    "english_name": "Civil Aviation Flight University of China",
+    "province": "四川",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "384",
+    "name": "岭南师范学院",
+    "english_name": "Lingnan Normal University",
+    "province": "广东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "385",
+    "name": "阜阳师范大学",
+    "english_name": "Fuyang Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "385",
+    "name": "佳木斯大学",
+    "english_name": "Jiamusi University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "385",
+    "name": "黔南民族师范学院",
+    "english_name": "Qiannan Normal College for Nationalities",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "385",
+    "name": "泰山学院",
+    "english_name": "Taishan University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "389",
+    "name": "黑龙江科技大学",
+    "english_name": "Heilongjiang University of Science and Technology",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "390",
+    "name": "龙岩学院",
+    "english_name": "Longyan University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "391",
+    "name": "防灾科技学院",
+    "english_name": "Institute of Disaster Prevention",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "392",
+    "name": "成都师范学院",
+    "english_name": "Chengdu Normal University",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "393",
+    "name": "内江师范学院",
+    "english_name": "Neijiang Normal University",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "394",
+    "name": "滁州学院",
+    "english_name": "Chuzhou University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "395",
+    "name": "湖北理工学院",
+    "english_name": "Hubei Polytechnic University",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "396",
+    "name": "周口师范学院",
+    "english_name": "Zhoukou Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "397",
+    "name": "河北科技师范学院",
+    "english_name": "Hebei Normal University of Science and Technology",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "397",
+    "name": "江苏第二师范学院",
+    "english_name": "Jiangsu Second Normal University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "399",
+    "name": "山东航空学院",
+    "english_name": "Shandong University of Aeronautics",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "400",
+    "name": "怀化学院",
+    "english_name": "Huaihua University",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "401",
+    "name": "沈阳工程学院",
+    "english_name": "Shenyang Institute of Engineering",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "402",
+    "name": "莆田学院",
+    "english_name": "Putian University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "403",
+    "name": "湖南城市学院",
+    "english_name": "Hunan City University",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "404",
+    "name": "北华航天工业学院",
+    "english_name": "North China Institute of Aerospace Engineering",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "405",
+    "name": "韶关学院",
+    "english_name": "Shaoguan University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "406",
+    "name": "湖南工程学院",
+    "english_name": "Hunan Institute of Engineering",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "407",
+    "name": "曲靖师范学院",
+    "english_name": "Qujing Normal University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "408",
+    "name": "湖南文理学院",
+    "english_name": "Hunan University of Arts and Science",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "408",
+    "name": "浙江水利水电学院",
+    "english_name": "Zhejiang University of Water Resources and Electric Power",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "410",
+    "name": "潍坊学院",
+    "english_name": "Weifang University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "411",
+    "name": "宜宾学院",
+    "english_name": "Yibin University",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "412",
+    "name": "德州学院",
+    "english_name": "Dezhou University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "412",
+    "name": "皖西学院",
+    "english_name": "West Anhui University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "414",
+    "name": "南阳师范学院",
+    "english_name": "Nanyang Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "415",
+    "name": "北部湾大学",
+    "english_name": "Beibu Gulf University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "416",
+    "name": "贵州理工学院",
+    "english_name": "Guizhou Institute of Technology",
+    "province": "贵州",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "416",
+    "name": "湖南科技学院",
+    "english_name": "Hunan University of Science and Engineering",
+    "province": "湖南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "418",
+    "name": "枣庄学院",
+    "english_name": "Zaozhuang University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "419",
+    "name": "牡丹江师范学院",
+    "english_name": "Mudanjiang Normal University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "420",
+    "name": "宿迁学院",
+    "english_name": "Suqian University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "421",
+    "name": "太原师范学院",
+    "english_name": "Taiyuan Normal University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "422",
+    "name": "邵阳学院",
+    "english_name": "Shaoyang University",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "423",
+    "name": "广东第二师范学院",
+    "english_name": "Guangdong University of Education",
+    "province": "广东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "423",
+    "name": "玉林师范学院",
+    "english_name": "Yulin Normal University",
+    "province": "广西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "425",
+    "name": "石家庄学院",
+    "english_name": "Shijiazhuang University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "426",
+    "name": "通化师范学院",
+    "english_name": "Tonghua Normal University",
+    "province": "吉林",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "426",
+    "name": "西安文理学院",
+    "english_name": "Xi'an University",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "428",
+    "name": "河南工程学院",
+    "english_name": "Henan University Of Engineering",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "428",
+    "name": "肇庆学院",
+    "english_name": "Zhaoqing University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "428",
+    "name": "遵义师范学院",
+    "english_name": "Zunyi Normal University",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "431",
+    "name": "黑龙江工程学院",
+    "english_name": "Heilongjiang Institute of Technology",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "431",
+    "name": "昆明学院",
+    "english_name": "Kunming University",
+    "province": "云南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "433",
+    "name": "宁德师范学院",
+    "english_name": "Ningde Normal University",
+    "province": "福建",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "434",
+    "name": "南阳理工学院",
+    "english_name": "Nanyang Institute Of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "434",
+    "name": "武夷学院",
+    "english_name": "Wuyi University",
+    "province": "福建",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "436",
+    "name": "黄淮学院",
+    "english_name": "Huanghuai University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "437",
+    "name": "宜春学院",
+    "english_name": "Yichun University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "438",
+    "name": "吉林化工大学",
+    "english_name": "Jilin Institute of Chemical Technology",
+    "province": "吉林",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "439",
+    "name": "许昌学院",
+    "english_name": "Xuchang University",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "440",
+    "name": "韩山师范学院",
+    "english_name": "Hanshan Normal University",
+    "province": "广东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "440",
+    "name": "上饶师范学院",
+    "english_name": "Shangrao Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "442",
+    "name": "宝鸡文理学院",
+    "english_name": "Baoji University of Arts and Sciences",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "442",
+    "name": "重庆第二师范学院",
+    "english_name": "Chongqing University of Education",
+    "province": "重庆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "442",
+    "name": "乐山师范学院",
+    "english_name": "Leshan Normal University",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "445",
+    "name": "淮南师范学院",
+    "english_name": "Huainan Normal University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "445",
+    "name": "温州理工学院",
+    "english_name": "Wenzhou University of Technology",
+    "province": "浙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "447",
+    "name": "安阳师范学院",
+    "english_name": "Anyang Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "448",
+    "name": "西昌学院",
+    "english_name": "Xichang College",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "449",
+    "name": "广州航海学院",
+    "english_name": "Guangzhou Maritime University",
+    "province": "广东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "450",
+    "name": "河南城建学院",
+    "english_name": "Henan University of Urban Construction",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "451",
+    "name": "齐鲁师范学院",
+    "english_name": "Qilu Normal University",
+    "province": "山东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "452",
+    "name": "湖州学院",
+    "english_name": "Huzhou College",
+    "province": "浙江",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "453",
+    "name": "天水师范学院",
+    "english_name": "Tianshui Normal University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "454",
+    "name": "湖南人文科技学院",
+    "english_name": "Hunan University of Humanities, Science and Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "454",
+    "name": "唐山师范学院",
+    "english_name": "Tangshan Normal University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "456",
+    "name": "商丘师范学院",
+    "english_name": "Shangqiu Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "457",
+    "name": "成都工业学院",
+    "english_name": "Chengdu Technological University",
+    "province": "四川",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "457",
+    "name": "六盘水师范学院",
+    "english_name": "Liupanshui Normal University",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "459",
+    "name": "巢湖学院",
+    "english_name": "Chaohu University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "460",
+    "name": "贺州学院",
+    "english_name": "Hezhou University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "460",
+    "name": "内蒙古科技大学包头师范学院",
+    "english_name": "Baotou Teachers' College",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "460",
+    "name": "平顶山学院",
+    "english_name": "Pingdingshan University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "463",
+    "name": "南昌师范学院",
+    "english_name": "Nanchang Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "463",
+    "name": "渭南师范学院",
+    "english_name": "Weinan Normal University",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "465",
+    "name": "宁夏师范大学",
+    "english_name": "Ningxia Normal University",
+    "province": "宁夏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "466",
+    "name": "湖南工学院",
+    "english_name": "Hunan Institute of Technology",
+    "province": "湖南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "467",
+    "name": "鞍山师范学院",
+    "english_name": "Anshan Normal University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "468",
+    "name": "哈尔滨学院",
+    "english_name": "Harbin University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "468",
+    "name": "湖北工程学院",
+    "english_name": "Hubei Engineering University",
+    "province": "湖北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "470",
+    "name": "吉林工程技术师范学院",
+    "english_name": "Jilin Engineering Normal University",
+    "province": "吉林",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "471",
+    "name": "廊坊师范学院",
+    "english_name": "Langfang Normal University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "472",
+    "name": "西安航空学院",
+    "english_name": "Xi'an Aeronautical Institute",
+    "province": "陕西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "473",
+    "name": "信阳农林学院",
+    "english_name": "Xinyang Agriculture and Forestry University",
+    "province": "河南",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "474",
+    "name": "山西大同大学",
+    "english_name": "Shanxi Datong University",
+    "province": "山西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "475",
+    "name": "黄山学院",
+    "english_name": "Huangshan University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "475",
+    "name": "嘉应学院",
+    "english_name": "Jiaying University",
+    "province": "广东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "477",
+    "name": "福建技术师范学院",
+    "english_name": "Fujian Polytechnic Normal University",
+    "province": "福建",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "478",
+    "name": "四川旅游学院",
+    "english_name": "Sichuan Tourism University",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "478",
+    "name": "咸阳师范学院",
+    "english_name": "Xianyang Normal University",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "480",
+    "name": "南京特殊教育师范学院",
+    "english_name": "Nanjing Normal University of Special Education",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "480",
+    "name": "宿州学院",
+    "english_name": "Suzhou University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "482",
+    "name": "凯里学院",
+    "english_name": "Kaili University",
+    "province": "贵州",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "483",
+    "name": "海南热带海洋学院",
+    "english_name": "Hainan Tropical Ocean University",
+    "province": "海南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "483",
+    "name": "九江学院",
+    "english_name": "Jiujiang University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "485",
+    "name": "山东管理学院",
+    "english_name": "Shandong Management University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "486",
+    "name": "玉溪师范学院",
+    "english_name": "Yuxi Normal University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "487",
+    "name": "安阳工学院",
+    "english_name": "Anyang Institute of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "487",
+    "name": "新乡学院",
+    "english_name": "Xinxiang University",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "489",
+    "name": "河西学院",
+    "english_name": "HeXi University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "490",
+    "name": "太原工业学院",
+    "english_name": "Taiyuan Institute of Technology",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "491",
+    "name": "山东女子学院",
+    "english_name": "Shandong Women's University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "491",
+    "name": "伊犁师范大学",
+    "english_name": "Yili Normal University",
+    "province": "新疆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "493",
+    "name": "河北建筑工程学院",
+    "english_name": "Hebei University of Architecture",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "494",
+    "name": "赤峰学院",
+    "english_name": "Chifeng University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "495",
+    "name": "琼台师范学院",
+    "english_name": "Qiongtai Normal University",
+    "province": "海南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "496",
+    "name": "陇东学院",
+    "english_name": "Longdong University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "496",
+    "name": "苏州城市学院",
+    "english_name": "Suzhou City University",
+    "province": "江苏",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "498",
+    "name": "营口理工学院",
+    "english_name": "YingKou Institute of Technology",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "499",
+    "name": "大庆师范学院",
+    "english_name": "Daqing Normal University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500",
+    "name": "华北科技学院",
+    "english_name": "North China Institute of Science and Technology",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "阿坝师范学院",
+    "english_name": "ABA TEACHERS COLLEGE",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "安康学院",
+    "english_name": "Ankang University",
+    "province": "陕西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "安顺学院",
+    "english_name": "Anshun University",
+    "province": "贵州",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "白城师范学院",
+    "english_name": "Baicheng Normal University",
+    "province": "吉林",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "百色学院",
+    "english_name": "Baise University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "保定学院",
+    "english_name": "Baoding University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "保山学院",
+    "english_name": "Baoshan University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "蚌埠学院",
+    "english_name": "Bengbu University",
+    "province": "安徽",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "亳州学院",
+    "english_name": "Bozhou University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "沧州师范学院",
+    "english_name": "Cangzhou Normal University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "昌吉学院",
+    "english_name": "Changji University",
+    "province": "新疆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "长沙师范学院",
+    "english_name": "Changsha Normal University",
+    "province": "湖南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "长治学院",
+    "english_name": "Changzhi University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "池州学院",
+    "english_name": "Chizhou University",
+    "province": "安徽",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "楚雄师范学院",
+    "english_name": "Chuxiong Normal University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "滇西科技师范学院",
+    "english_name": "West Yunnan University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "滇西应用技术大学",
+    "english_name": "West Yunnan University of Applied Sciences",
+    "province": "云南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "鄂尔多斯应用技术学院",
+    "english_name": "Ordos Institute of Technology",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "赣东学院",
+    "english_name": "East China Institute of Technology, Yangtze River College",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "赣南科技学院",
+    "english_name": "College of Applied Science, Jiangxi University of Science and Technology",
+    "province": "江西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "甘肃民族师范学院",
+    "english_name": "Gansu Normal University for Nationalities",
+    "province": "甘肃",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "广西科技师范学院",
+    "english_name": "Guangxi Science and Technology Normal University",
+    "province": "广西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "广西民族师范学院",
+    "english_name": "Guangxi Normal University for Nationalities",
+    "province": "广西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "广西职业师范学院",
+    "english_name": "Guangxi Vocational Normal University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "桂林航天工业学院",
+    "english_name": "Guilin University of Aerospace Technology",
+    "province": "广西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "贵州工程应用技术学院",
+    "english_name": "Guizhou University of Engineering Science",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "邯郸学院",
+    "english_name": "Handan University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "汉江师范学院",
+    "english_name": "Hanjiang Normal University",
+    "province": "湖北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河北环境工程学院",
+    "english_name": "Hebei University of Environmental Engineering",
+    "province": "河北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河北民族师范学院",
+    "english_name": "Hebei Normal University for Nationalities",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河北水利电力学院",
+    "english_name": "Hebei University of Water Resources and Electric Engineering",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河池学院",
+    "english_name": "Hechi University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "合肥理工学院",
+    "english_name": "Jianghuai College of Anhui University",
+    "province": "安徽",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "黑河学院",
+    "english_name": "Heihe University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "黑龙江工业学院",
+    "english_name": "Heilongjiang University of Technology",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河南工学院",
+    "english_name": "Henan Institute of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河南牧业经济学院",
+    "english_name": "Henan University of Animal Husbandry and Economy",
+    "province": "河南",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "衡水学院",
+    "english_name": "Hengshui University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "河套学院",
+    "english_name": "Hetao University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "菏泽学院",
+    "english_name": "Heze University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "红河学院",
+    "english_name": "Honghe University",
+    "province": "云南",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "呼伦贝尔学院",
+    "english_name": "Hulunbuir University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "吉林农业科技学院",
+    "english_name": "Jilin Agricultural Science and Technology University",
+    "province": "吉林",
+    "tags": [],
+    "type": "农业",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "荆楚理工学院",
+    "english_name": "Jingchu University of Technology",
+    "province": "湖北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "景德镇学院",
+    "english_name": "Jingdezhen University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "集宁师范学院",
+    "english_name": "Jining Normal University",
+    "province": "内蒙古",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "济宁学院",
+    "english_name": "Jining University",
+    "province": "山东",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "晋中学院",
+    "english_name": "Jinzhong University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "喀什大学",
+    "english_name": "Kashi University",
+    "province": "新疆",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "兰州城市学院",
+    "english_name": "Lanzhou City University",
+    "province": "甘肃",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "兰州工业学院",
+    "english_name": "Lanzhou Institute of Technology",
+    "province": "甘肃",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "兰州文理学院",
+    "english_name": "Lanzhou University of Arts and Science",
+    "province": "甘肃",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "辽东学院",
+    "english_name": "Liaodong University",
+    "province": "辽宁",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "辽宁科技学院",
+    "english_name": "Liaoning Institute of Science and Technology",
+    "province": "辽宁",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "吕梁学院",
+    "english_name": "Lyuliang University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "萍乡学院",
+    "english_name": "Pingxiang University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "普洱学院",
+    "english_name": "Puer University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山东农业工程学院",
+    "english_name": "Shandong Agriculture and Engineering University",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山东青年政治学院",
+    "english_name": "Shandong Youth University of Political Science",
+    "province": "山东",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山东石油化工学院",
+    "english_name": "SHANDONG INSTITUTE OF PETROLEUM AND CHEMICAL TECHNOLOGY",
+    "province": "山东",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "商洛学院",
+    "english_name": "Shangluo University",
+    "province": "陕西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山西电子科技学院",
+    "english_name": "Modern College of Humanities and Sciences of Shanxi Normal University",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山西工程技术学院",
+    "english_name": "Shanxi Institute of Technology",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山西工学院",
+    "english_name": "SHANXI COLLEGE OF TECHNOLOGY",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山西科技学院",
+    "english_name": "Huake College of Taiyuan University of Science and Technology",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "山西能源学院",
+    "english_name": "Shanxi Institute of Energy",
+    "province": "山西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "陕西学前师范学院",
+    "english_name": "Shaanxi Xueqian Normal University",
+    "province": "陕西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "四川民族学院",
+    "english_name": "Sichuan Minzu College",
+    "province": "四川",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "四川文理学院",
+    "english_name": "Sichuan University of Arts and Science",
+    "province": "四川",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "绥化学院",
+    "english_name": "Suihua University",
+    "province": "黑龙江",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "太原学院",
+    "english_name": "Taiyuan University",
+    "province": "山西",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "泰州学院",
+    "english_name": "Taizhou University",
+    "province": "江苏",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "唐山学院",
+    "english_name": "Tangshan University",
+    "province": "河北",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "天津中德应用技术大学",
+    "english_name": "Tianjin Sino-German University of Applied Sciences",
+    "province": "天津",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "文山学院",
+    "english_name": "Wenshan University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "梧州学院",
+    "english_name": "Wuzhou University",
+    "province": "广西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "邢台学院",
+    "english_name": "Xingtai University",
+    "province": "河北",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "兴义民族师范学院",
+    "english_name": "Xingyi Normal University for Nationalities",
+    "province": "贵州",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "新疆工程学院",
+    "english_name": "Xinjiang Institute of Engineering",
+    "province": "新疆",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "新疆理工学院",
+    "english_name": "Xinjiang Institute of Technology",
+    "province": "新疆",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "新疆政法学院",
+    "english_name": "Xinjiang Institute Of Political Science And Law",
+    "province": "新疆",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "新余学院",
+    "english_name": "Xinyu University",
+    "province": "江西",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "忻州师范学院",
+    "english_name": "Xinzhou Teachers University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "运城学院",
+    "english_name": "Yuncheng University",
+    "province": "山西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "豫章师范学院",
+    "english_name": "Yuzhang Normal University",
+    "province": "江西",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "张家口学院",
+    "english_name": "Zhangjiakou University",
+    "province": "河北",
+    "tags": [],
+    "type": "综合",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "昭通学院",
+    "english_name": "Zhaotong University",
+    "province": "云南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "郑州工程技术学院",
+    "english_name": "Zhengzhou University of Technology",
+    "province": "河南",
+    "tags": [],
+    "type": "理工",
+    "year": 2025,
+    "source": "软科排名"
+  },
+  {
+    "rank": "500+",
+    "name": "郑州师范学院",
+    "english_name": "Zhengzhou Normal University",
+    "province": "河南",
+    "tags": [],
+    "type": "师范",
+    "year": 2025,
+    "source": "软科排名"
+  }
+]

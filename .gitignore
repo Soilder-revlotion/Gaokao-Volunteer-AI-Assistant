@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 调试截图（爬虫调试时自动生成）
+data/debug_*.png
+data/test_*.png
+
+# Cookie 文件（敏感信息）
+cookies/
+
+# 向量数据库（太大，需本地重建）
+db/
