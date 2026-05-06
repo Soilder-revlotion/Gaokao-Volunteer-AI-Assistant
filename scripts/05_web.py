@@ -3,12 +3,15 @@
 启动后访问 http://localhost:5000
 """
 
+import csv
+import io
 import json
 import os
 import re
+import urllib.parse
 import requests
 import numpy as np
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, Response
 
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
@@ -180,8 +183,45 @@ def ask():
         return jsonify({"error": str(e)}), 500
 
 
+def estimate_rank(user_score, filtered):
+    """从分数线数据构建分数→位次查找表，用分段线性插值估算用户位次"""
+    # 提取所有 (分数, 位次) 对
+    score_rank_pairs = [(int(s["min_score"]), int(s["min_rank"])) for s in filtered]
+    score_rank_pairs.sort(key=lambda x: -x[0])
+
+    # 去重：同分数取最小位次（更保守估计）
+    score_to_rank = {}
+    for sc, rk in score_rank_pairs:
+        if sc not in score_to_rank or rk < score_to_rank[sc]:
+            score_to_rank[sc] = rk
+    sorted_scores = sorted(score_to_rank.keys(), reverse=True)
+
+    if not sorted_scores:
+        return None
+
+    # 边界处理
+    if user_score >= sorted_scores[0]:
+        return max(1, score_to_rank[sorted_scores[0]])
+    if user_score <= sorted_scores[-1]:
+        return max(1, score_to_rank[sorted_scores[-1]])
+
+    # 分段线性插值
+    for i in range(len(sorted_scores) - 1):
+        high_score = sorted_scores[i]
+        low_score = sorted_scores[i + 1]
+        if high_score >= user_score >= low_score:
+            high_rank = score_to_rank[high_score]
+            low_rank = score_to_rank[low_score]
+            if high_score == low_score:
+                return max(1, high_rank)
+            ratio = (high_score - user_score) / (high_score - low_score)
+            return max(1, int(high_rank + ratio * (low_rank - high_rank)))
+
+    return max(1, score_to_rank[sorted_scores[-1]])
+
+
 def recommend_schools(user_score, province, category):
-    """基于位次法的智能推荐（优化版：查表插值 + 主批次优先 + 动态阈值）"""
+    """基于位次法的智能推荐（v3：精确插值 + 主批次优先 + 动态阈值 + 专业组详情）"""
     user_score = int(user_score)
 
     # 过滤该省份+科类+2025年的数据
@@ -197,47 +237,12 @@ def recommend_schools(user_score, province, category):
     if not filtered:
         return None
 
-    # === 优化1：查表+分段线性插值估算用户位次 ===
-    # 提取所有 (分数, 位次) 对，按分数降序排序
-    score_rank_pairs = [(int(s["min_score"]), int(s["min_rank"])) for s in filtered]
-    score_rank_pairs.sort(key=lambda x: -x[0])
-
-    # 去重：同分数取最小位次（更保守）
-    score_to_rank = {}
-    for sc, rk in score_rank_pairs:
-        if sc not in score_to_rank or rk < score_to_rank[sc]:
-            score_to_rank[sc] = rk
-    sorted_scores = sorted(score_to_rank.keys(), reverse=True)
-
-    if not sorted_scores:
+    # === 位次估算 ===
+    user_rank = estimate_rank(user_score, filtered)
+    if user_rank is None:
         return None
 
-    # 分段线性插值
-    if user_score >= sorted_scores[0]:
-        user_rank = score_to_rank[sorted_scores[0]]
-    elif user_score <= sorted_scores[-1]:
-        user_rank = score_to_rank[sorted_scores[-1]]
-    else:
-        # 找到 user_score 所在区间
-        for i in range(len(sorted_scores) - 1):
-            high_score = sorted_scores[i]
-            low_score = sorted_scores[i + 1]
-            if high_score >= user_score >= low_score:
-                high_rank = score_to_rank[high_score]
-                low_rank = score_to_rank[low_score]
-                # 线性插值
-                if high_score == low_score:
-                    user_rank = high_rank
-                else:
-                    ratio = (high_score - user_score) / (high_score - low_score)
-                    user_rank = int(high_rank + ratio * (low_rank - high_rank))
-                break
-        else:
-            user_rank = score_to_rank[sorted_scores[-1]]
-
-    user_rank = max(1, user_rank)
-
-    # === 优化2：主批次优先，每校取最匹配的一条 ===
+    # === 按学校聚合，收集所有批次详情 ===
     school_records = {}
     for s in filtered:
         name = s["school"]
@@ -246,12 +251,13 @@ def recommend_schools(user_score, province, category):
         school_records[name].append(s)
 
     school_best = {}
+    school_details = {}
     for name, records in school_records.items():
         # 优先级：含"本科"的批次 > 其他批次
         benke_records = [r for r in records if "本科" in str(r.get("batch", ""))]
         candidates = benke_records if benke_records else records
 
-        # 在候选中取位次最接近用户位次的那条
+        # 取位次最接近用户位次的那条作为主推荐
         best = min(candidates, key=lambda r: abs(int(r["min_rank"]) - user_rank))
         school_best[name] = {
             "min_score": int(best["min_score"]),
@@ -260,11 +266,25 @@ def recommend_schools(user_score, province, category):
             "soft_rank": rank_map.get(name, 9999),
         }
 
-    # === 优化3：动态分档阈值 ===
+        # 收集所有批次详情（去重）
+        details = []
+        seen = set()
+        for r in records:
+            key = (r.get("batch", ""), r.get("min_score"))
+            if key not in seen:
+                seen.add(key)
+                details.append({
+                    "batch": r.get("batch", ""),
+                    "min_score": int(r["min_score"]),
+                    "min_rank": int(r["min_rank"]),
+                })
+        details.sort(key=lambda x: x["min_rank"])
+        school_details[name] = details
+
+    # === 动态分档阈值 ===
     def get_thresholds(school_rank):
-        """根据学校录取位次动态返回分档阈值"""
         if school_rank < 5000:
-            return 1.5, 0.8, 0.6   # 冲上限, 稳下限, 保下限
+            return 1.5, 0.8, 0.6
         elif school_rank < 50000:
             return 1.8, 0.8, 0.6
         else:
@@ -285,6 +305,7 @@ def recommend_schools(user_score, province, category):
             "soft_rank": info["soft_rank"],
             "batch": info["batch"],
             "rank_diff": rank_diff,
+            "details": school_details[name],
         }
 
         if ratio <= bao_th:
@@ -294,7 +315,6 @@ def recommend_schools(user_score, province, category):
         elif ratio <= chong_th:
             chong.append(item)
 
-    # 按软科排名排序，取 top 15
     chong.sort(key=lambda x: x["soft_rank"])
     wen.sort(key=lambda x: x["soft_rank"])
     bao.sort(key=lambda x: x["soft_rank"])
@@ -329,6 +349,51 @@ def recommend():
 
     except Exception as e:
         print(f"[ERROR] /recommend: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/export", methods=["POST"])
+def export():
+    try:
+        data = request.get_json(force=True)
+        if not data:
+            return jsonify({"error": "请求格式错误"}), 400
+
+        province = data.get("province", "")
+        category = data.get("category", "")
+        score = data.get("score", "")
+        user_rank = data.get("user_rank", "")
+        chong = data.get("chong", [])
+        wen = data.get("wen", [])
+        bao = data.get("bao", [])
+
+        output = io.StringIO()
+        output.write('﻿')  # BOM for Excel
+        writer = csv.writer(output)
+        writer.writerow(["分类", "学校", "批次", "2025最低分", "最低位次", "软科排名", "位次差距"])
+        writer.writerow([f"考生信息：{province} {category} {score}分 估算位次{user_rank}", "", "", "", "", "", ""])
+        writer.writerow([])
+
+        for label, items in [("冲一冲", chong), ("稳一稳", wen), ("保一保", bao)]:
+            for s in items:
+                diff = s.get("rank_diff", 0)
+                diff_str = f"+{diff}" if diff > 0 else str(diff)
+                writer.writerow([label, s.get("name", ""), s.get("batch", ""), s.get("min_score", ""), s.get("min_rank", ""), s.get("soft_rank", ""), diff_str])
+
+        csv_content = output.getvalue()
+        output.close()
+
+        filename = f"gaokao_recommend_{province}_{category}_{score}.csv"
+        encoded_filename = urllib.parse.quote(filename)
+
+        return Response(
+            csv_content,
+            mimetype="text/csv",
+            headers={"Content-Disposition": f"attachment; filename*=UTF-8''{encoded_filename}"}
+        )
+
+    except Exception as e:
+        print(f"[ERROR] /export: {e}")
         return jsonify({"error": str(e)}), 500
 
 

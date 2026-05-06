@@ -512,6 +512,65 @@
         .rec-rank-diff.negative { color: #22c55e; }
         .rec-rank-diff.positive { color: #f59e0b; }
 
+        .rec-details-toggle {
+            font-size: 11px;
+            color: var(--accent);
+            cursor: pointer;
+            border: none;
+            background: none;
+            padding: 2px 0;
+            margin-top: 2px;
+        }
+
+        .rec-details-toggle:hover { text-decoration: underline; }
+
+        .rec-details {
+            display: none;
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px dashed var(--border);
+        }
+
+        .rec-details.show { display: block; }
+
+        .rec-detail-row {
+            font-size: 11px;
+            color: var(--text-secondary);
+            padding: 2px 0;
+            display: flex;
+            gap: 8px;
+        }
+
+        .rec-export-bar {
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .rec-export-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            font-size: 13px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .rec-export-btn:hover {
+            background: var(--border);
+        }
+
+        .rec-note {
+            text-align: center;
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
         .rec-card-info {
             font-size: 12px;
             color: var(--text-muted);
@@ -681,28 +740,45 @@
             btn.disabled = false;
         }
 
+        let lastRecData = null;
+        let lastRecMeta = {};
+
         function renderRecResult(data, province, category, score) {
+            lastRecData = data;
+            lastRecMeta = { province, category, score };
             const el = document.getElementById("recResult");
             const rank = data.user_rank;
             let html = `<div class="rec-summary">📍 ${province} ${category} <strong>${score}分</strong>，估算位次约 <strong>${rank.toLocaleString()}</strong> 名</div>`;
             html += '<div class="rec-columns">';
-            html += renderColumn("🔥 冲一冲", "chong", data.chong, "有希望但有风险");
-            html += renderColumn("✅ 稳一稳", "wen", data.wen, "较大把握");
-            html += renderColumn("🛡 保一保", "bao", data.bao, "保底选择");
+            html += renderColumn("🔥 冲一冲", "chong", data.chong);
+            html += renderColumn("✅ 稳一稳", "wen", data.wen);
+            html += renderColumn("🛡 保一保", "bao", data.bao);
             html += '</div>';
+            html += '<div class="rec-export-bar"><button class="rec-export-btn" onclick="exportRecommend()">📥 导出志愿表</button></div>';
+            html += '<div class="rec-note">位次为基于录取分数线的估算值，仅供参考</div>';
             el.innerHTML = html;
         }
 
-        function renderColumn(title, cls, items, desc) {
+        function renderColumn(title, cls, items) {
             let h = `<div class="rec-column ${cls}"><h3>${title}</h3>`;
             if (items.length === 0) {
                 h += `<div class="rec-empty">暂无匹配院校</div>`;
             } else {
-                items.forEach(s => {
+                items.forEach((s, idx) => {
                     const batchLabel = s.batch ? `<div class="rec-batch">${escapeHtml(s.batch)}</div>` : '';
                     const diff = s.rank_diff;
                     const diffClass = diff <= 0 ? 'negative' : 'positive';
                     const diffText = diff <= 0 ? `位次优 ${Math.abs(diff).toLocaleString()}` : `位次差 +${diff.toLocaleString()}`;
+                    const cardId = `card-${cls}-${idx}`;
+                    let detailsHtml = '';
+                    if (s.details && s.details.length > 1) {
+                        detailsHtml = `<button class="rec-details-toggle" onclick="toggleDetails('${cardId}')">展开 ${s.details.length} 个批次 ▾</button>`;
+                        detailsHtml += `<div class="rec-details" id="${cardId}-detail">`;
+                        s.details.forEach(d => {
+                            detailsHtml += `<div class="rec-detail-row"><span>${escapeHtml(d.batch)}</span><span>${d.min_score}分</span><span>位次 ${d.min_rank.toLocaleString()}</span></div>`;
+                        });
+                        detailsHtml += '</div>';
+                    }
                     h += `<div class="rec-card">
                         <div class="rec-card-name" onclick="askSchool('${escapeHtml(s.name)}')">${escapeHtml(s.name)}</div>
                         ${batchLabel}
@@ -712,6 +788,7 @@
                             <span>软科 #${s.soft_rank}</span>
                             <span class="rec-rank-diff ${diffClass}">${diffText}</span>
                         </div>
+                        ${detailsHtml}
                     </div>`;
                 });
             }
@@ -719,11 +796,47 @@
             return h;
         }
 
+        function toggleDetails(cardId) {
+            const el = document.getElementById(cardId + '-detail');
+            const btn = el.previousElementSibling;
+            if (el.classList.contains('show')) {
+                el.classList.remove('show');
+                btn.textContent = btn.textContent.replace('▴', '▾').replace('收起', '展开');
+            } else {
+                el.classList.add('show');
+                btn.textContent = btn.textContent.replace('▾', '▴').replace('展开', '收起');
+            }
+        }
+
         function askSchool(name) {
             switchMode('chat');
             const input = document.getElementById("questionInput");
             input.value = name + "怎么样？";
             askQuestion();
+        }
+
+        async function exportRecommend() {
+            if (!lastRecData) return;
+            const body = {
+                ...lastRecData,
+                ...lastRecMeta,
+            };
+            try {
+                const resp = await fetch("/export", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(body)
+                });
+                const blob = await resp.blob();
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = `gaokao_recommend_${lastRecMeta.province}_${lastRecMeta.category}_${lastRecMeta.score}.csv`;
+                a.click();
+                URL.revokeObjectURL(url);
+            } catch (e) {
+                alert("导出失败：" + e.message);
+            }
         }
 
         // ===== Chat =====
