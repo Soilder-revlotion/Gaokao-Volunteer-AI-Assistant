@@ -185,8 +185,13 @@ def ask():
 
 def estimate_rank(user_score, filtered):
     """从分数线数据构建分数→位次查找表，用分段线性插值估算用户位次"""
-    # 提取所有 (分数, 位次) 对
-    score_rank_pairs = [(int(s["min_score"]), int(s["min_rank"])) for s in filtered]
+    # 提取所有 (分数, 位次) 对，跳过无效数据
+    score_rank_pairs = []
+    for s in filtered:
+        try:
+            score_rank_pairs.append((int(s["min_score"]), int(s["min_rank"])))
+        except (ValueError, TypeError):
+            continue
     score_rank_pairs.sort(key=lambda x: -x[0])
 
     # 去重：同分数取最小位次（更保守估计）
@@ -224,14 +229,14 @@ def recommend_schools(user_score, province, category):
     """基于位次法的智能推荐（v3：精确插值 + 主批次优先 + 动态阈值 + 专业组详情）"""
     user_score = int(user_score)
 
-    # 过滤该省份+科类+2025年的数据
+    # 过滤该省份+科类+2025年的数据（排除无效值如"-"）
     filtered = [
         s for s in score_data
         if s.get("province") == province
         and s.get("category") == category
         and s.get("year") == 2025
-        and s.get("min_score")
-        and s.get("min_rank")
+        and str(s.get("min_score", "")).replace(".", "").isdigit()
+        and str(s.get("min_rank", "")).replace(".", "").isdigit()
     ]
 
     if not filtered:
@@ -270,13 +275,18 @@ def recommend_schools(user_score, province, category):
         details = []
         seen = set()
         for r in records:
-            key = (r.get("batch", ""), r.get("min_score"))
+            try:
+                sc = int(r["min_score"])
+                rk = int(r["min_rank"])
+            except (ValueError, TypeError):
+                continue
+            key = (r.get("batch", ""), sc)
             if key not in seen:
                 seen.add(key)
                 details.append({
                     "batch": r.get("batch", ""),
-                    "min_score": int(r["min_score"]),
-                    "min_rank": int(r["min_rank"]),
+                    "min_score": sc,
+                    "min_rank": rk,
                 })
         details.sort(key=lambda x: x["min_rank"])
         school_details[name] = details

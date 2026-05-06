@@ -1,0 +1,24 @@
+services:
+  gaokao-web:
+    image: ai-gaokao-web:latest
+    container_name: gaokao-web
+    ports:
+      - "5000:5000"
+    volumes:
+      - D:/gaokao_db:/app/db
+      - D:/models/text2vec/damo/nlp_gte_sentence-embedding_chinese-base:/app/models/nlp_gte_sentence-embedding_chinese-base
+      - ./data:/app/data
+      - ./scripts:/app/scripts
+      - ./templates:/app/templates
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434/api/generate
+      - OLLAMA_MODEL=qwen2.5:3b
+      - DB_PATH=/app/db
+      - MODEL_LOCAL_PATH=/app/models/nlp_gte_sentence-embedding_chinese-base
+      - HTTP_PROXY=
+      - HTTPS_PROXY=
+      - http_proxy=
+      - https_proxy=
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

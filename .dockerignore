@@ -1,0 +1,8 @@
+.git
+__pycache__
+cookies/
+*.png
+debug_*
+test_*
+*.pyc
+.DS_Store
