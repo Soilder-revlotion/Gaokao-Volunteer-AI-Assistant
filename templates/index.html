@@ -18,7 +18,6 @@
             --accent: #10a37f;
             --accent-hover: #0d8c6d;
             --user-bubble: #f0f0f0;
-            --ai-bubble: #ffffff;
             --shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
             --shadow-md: 0 2px 8px rgba(0,0,0,0.08);
             --radius: 12px;
@@ -46,6 +45,7 @@
             flex-shrink: 0;
             position: relative;
             background: var(--bg);
+            gap: 12px;
         }
 
         .header-title {
@@ -58,15 +58,49 @@
         .header-badge {
             font-size: 11px;
             color: var(--text-muted);
-            margin-left: 8px;
             font-weight: 400;
         }
 
-        .clear-btn {
+        .header-left {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .header-right {
             position: absolute;
             right: 16px;
             top: 50%;
             transform: translateY(-50%);
+            display: flex;
+            gap: 8px;
+        }
+
+        .mode-btn {
+            padding: 6px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--bg);
+            color: var(--text-secondary);
+            font-size: 12px;
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        .mode-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .mode-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .clear-btn {
             width: 32px;
             height: 32px;
             border: none;
@@ -92,7 +126,11 @@
             color: var(--text-primary);
         }
 
-        /* ===== Messages ===== */
+        /* ===== Views ===== */
+        .view { display: none; flex: 1; overflow: hidden; flex-direction: column; }
+        .view.active { display: flex; }
+
+        /* ===== Chat View ===== */
         .messages {
             flex: 1;
             overflow-y: auto;
@@ -105,7 +143,6 @@
             padding: 24px 16px;
         }
 
-        /* Empty state */
         .empty-state {
             display: flex;
             flex-direction: column;
@@ -169,7 +206,6 @@
             color: var(--text-primary);
         }
 
-        /* Message rows */
         .msg-row {
             display: flex;
             gap: 12px;
@@ -182,9 +218,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .msg-row.user {
-            flex-direction: row-reverse;
-        }
+        .msg-row.user { flex-direction: row-reverse; }
 
         .msg-avatar {
             width: 30px;
@@ -199,20 +233,10 @@
             margin-top: 2px;
         }
 
-        .msg-row.user .msg-avatar {
-            background: #6b7280;
-            color: white;
-        }
+        .msg-row.user .msg-avatar { background: #6b7280; color: white; }
+        .msg-row.ai .msg-avatar { background: var(--accent); color: white; }
 
-        .msg-row.ai .msg-avatar {
-            background: var(--accent);
-            color: white;
-        }
-
-        .msg-body {
-            max-width: calc(100% - 42px);
-            min-width: 0;
-        }
+        .msg-body { max-width: calc(100% - 42px); min-width: 0; }
 
         .msg-bubble {
             font-size: 15px;
@@ -228,21 +252,9 @@
             color: var(--text-primary);
         }
 
-        .msg-row.ai .msg-bubble {
-            color: var(--text-primary);
-        }
+        .msg-row.ai .msg-bubble { color: var(--text-primary); }
+        .msg-bubble strong { font-weight: 600; }
 
-        .msg-bubble strong {
-            font-weight: 600;
-        }
-
-        .msg-bubble br + br {
-            display: block;
-            content: "";
-            margin-top: 8px;
-        }
-
-        /* Loading dots */
         .msg-row.loading .msg-bubble {
             display: flex;
             align-items: center;
@@ -307,9 +319,7 @@
             padding: 4px 0;
         }
 
-        .input-wrapper textarea::placeholder {
-            color: var(--text-muted);
-        }
+        .input-wrapper textarea::placeholder { color: var(--text-muted); }
 
         .send-btn {
             width: 34px;
@@ -326,20 +336,9 @@
             transition: var(--transition);
         }
 
-        .send-btn:hover:not(:disabled) {
-            background: var(--accent-hover);
-            transform: scale(1.05);
-        }
-
-        .send-btn:disabled {
-            background: #d1d5db;
-            cursor: not-allowed;
-        }
-
-        .send-btn svg {
-            width: 16px;
-            height: 16px;
-        }
+        .send-btn:hover:not(:disabled) { background: var(--accent-hover); transform: scale(1.05); }
+        .send-btn:disabled { background: #d1d5db; cursor: not-allowed; }
+        .send-btn svg { width: 16px; height: 16px; }
 
         .footer-note {
             text-align: center;
@@ -348,78 +347,386 @@
             margin-top: 8px;
         }
 
-        /* ===== Mobile ===== */
-        @media (max-width: 768px) {
-            .messages-inner {
-                padding: 16px 12px;
-            }
-            .quick-grid {
-                grid-template-columns: 1fr;
-            }
-            .msg-bubble {
-                font-size: 14px;
-            }
-            .input-area {
-                padding: 12px;
-            }
-            .empty-title {
-                font-size: 18px;
-            }
+        /* ===== Recommend View ===== */
+        .rec-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px 16px;
         }
 
-        /* scrollbar */
-        .messages::-webkit-scrollbar {
-            width: 6px;
+        .rec-inner {
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .messages::-webkit-scrollbar-thumb {
-            background: #d1d5db;
-            border-radius: 3px;
+
+        .rec-form {
+            display: flex;
+            gap: 12px;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
         }
-        .messages::-webkit-scrollbar-thumb:hover {
-            background: #9ca3af;
+
+        .rec-field {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
         }
+
+        .rec-field label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .rec-field input,
+        .rec-field select {
+            height: 40px;
+            padding: 0 12px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-size: 14px;
+            color: var(--text-primary);
+            background: var(--bg);
+            outline: none;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .rec-field input:focus,
+        .rec-field select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(16, 163, 127, 0.1);
+        }
+
+        .rec-field input { width: 100px; }
+        .rec-field select { width: 140px; }
+
+        .rec-submit {
+            height: 40px;
+            padding: 0 24px;
+            border: none;
+            border-radius: var(--radius-sm);
+            background: var(--accent);
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: inherit;
+        }
+
+        .rec-submit:hover { background: var(--accent-hover); }
+        .rec-submit:disabled { background: #d1d5db; cursor: not-allowed; }
+
+        .rec-loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .rec-error {
+            text-align: center;
+            padding: 20px;
+            color: #ef4444;
+            font-size: 14px;
+        }
+
+        .rec-summary {
+            text-align: center;
+            padding: 12px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .rec-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+        }
+
+        .rec-column h3 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .rec-column.chong h3 { color: #f59e0b; border-color: #f59e0b; }
+        .rec-column.wen h3 { color: var(--accent); border-color: var(--accent); }
+        .rec-column.bao h3 { color: #3b82f6; border-color: #3b82f6; }
+
+        .rec-card {
+            padding: 10px 12px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            margin-bottom: 8px;
+            transition: var(--transition);
+        }
+
+        .rec-card:hover {
+            box-shadow: var(--shadow-md);
+            border-color: transparent;
+        }
+
+        .rec-column.chong .rec-card { border-left: 3px solid #f59e0b; }
+        .rec-column.wen .rec-card { border-left: 3px solid var(--accent); }
+        .rec-column.bao .rec-card { border-left: 3px solid #3b82f6; }
+
+        .rec-card-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+            cursor: pointer;
+            transition: color 0.15s;
+        }
+
+        .rec-card-name:hover {
+            color: var(--accent);
+        }
+
+        .rec-batch {
+            display: inline-block;
+            font-size: 11px;
+            color: var(--text-muted);
+            background: var(--bg-secondary);
+            padding: 1px 6px;
+            border-radius: 4px;
+            margin-bottom: 4px;
+        }
+
+        .rec-rank-diff {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .rec-rank-diff.negative { color: #22c55e; }
+        .rec-rank-diff.positive { color: #f59e0b; }
+
+        .rec-card-info {
+            font-size: 12px;
+            color: var(--text-muted);
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .rec-card-info span {
+            white-space: nowrap;
+        }
+
+        .rec-empty {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        /* ===== Mobile ===== */
+        @media (max-width: 768px) {
+            .messages-inner { padding: 16px 12px; }
+            .quick-grid { grid-template-columns: 1fr; }
+            .msg-bubble { font-size: 14px; }
+            .input-area { padding: 12px; }
+            .empty-title { font-size: 18px; }
+            .rec-columns { grid-template-columns: 1fr; }
+            .rec-form { flex-direction: column; align-items: stretch; }
+            .rec-field input, .rec-field select { width: 100%; }
+            .header-badge { display: none; }
+        }
+
+        .messages::-webkit-scrollbar, .rec-container::-webkit-scrollbar { width: 6px; }
+        .messages::-webkit-scrollbar-thumb, .rec-container::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
     </style>
 </head>
 <body>
     <div class="header">
+        <div class="header-left">
+            <button class="mode-btn active" id="chatModeBtn" onclick="switchMode('chat')">💬 对话</button>
+            <button class="mode-btn" id="recModeBtn" onclick="switchMode('recommend')">🎯 智能推荐</button>
+        </div>
         <span class="header-title">高考志愿 AI 助手</span>
         <span class="header-badge">qwen2.5:3b</span>
-        <button class="clear-btn" id="clearBtn" onclick="clearChat()" title="新对话">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 5v14M5 12h14"/>
-            </svg>
-        </button>
+        <div class="header-right">
+            <button class="clear-btn" id="clearBtn" onclick="clearChat()" title="新对话">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                </svg>
+            </button>
+        </div>
     </div>
 
-    <div class="messages" id="messages">
-        <div class="messages-inner" id="messagesInner">
-            <div class="empty-state" id="emptyState">
-                <div class="empty-logo">志</div>
-                <div class="empty-title">高考志愿 AI 助手</div>
-                <div class="empty-subtitle">基于本地知识库的智能问答，数据不出网</div>
-                <div class="quick-grid">
-                    <div class="quick-card" onclick="quickAsk('河南考生理科580分能上什么学校？')">河南理科580分<br>能上什么学校？</div>
-                    <div class="quick-card" onclick="quickAsk('什么是平行志愿？')">什么是平行志愿？</div>
-                    <div class="quick-card" onclick="quickAsk('计算机专业就业怎么样？')">计算机专业<br>就业怎么样？</div>
-                    <div class="quick-card" onclick="quickAsk('清华大学排名多少？')">清华大学排名多少？</div>
+    <!-- Chat View -->
+    <div class="view active" id="chatView">
+        <div class="messages" id="messages">
+            <div class="messages-inner" id="messagesInner">
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-logo">志</div>
+                    <div class="empty-title">高考志愿 AI 助手</div>
+                    <div class="empty-subtitle">基于本地知识库的智能问答，数据不出网</div>
+                    <div class="quick-grid">
+                        <div class="quick-card" onclick="quickAsk('河南考生理科580分能上什么学校？')">河南理科580分<br>能上什么学校？</div>
+                        <div class="quick-card" onclick="quickAsk('什么是平行志愿？')">什么是平行志愿？</div>
+                        <div class="quick-card" onclick="quickAsk('计算机专业就业怎么样？')">计算机专业<br>就业怎么样？</div>
+                        <div class="quick-card" onclick="quickAsk('清华大学排名多少？')">清华大学排名多少？</div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="input-wrapper">
+                <textarea id="questionInput" rows="1" placeholder="输入你的问题..." onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
+                <button class="send-btn" id="sendBtn" onclick="askQuestion()" disabled>
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="footer-note">本地运行 · 数据不出网 · 基于 RAG + Ollama</div>
+        </div>
+    </div>
+
+    <!-- Recommend View -->
+    <div class="view" id="recView">
+        <div class="rec-container">
+            <div class="rec-inner">
+                <div class="rec-form" id="recForm">
+                    <div class="rec-field">
+                        <label>高考分数</label>
+                        <input type="number" id="recScore" placeholder="如 580" min="100" max="750">
+                    </div>
+                    <div class="rec-field">
+                        <label>省份</label>
+                        <select id="recProvince">
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                    <div class="rec-field">
+                        <label>科类</label>
+                        <select id="recCategory">
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                    <button class="rec-submit" id="recSubmit" onclick="doRecommend()">开始推荐</button>
+                </div>
+                <div id="recResult"></div>
             </div>
         </div>
     </div>
 
-    <div class="input-area">
-        <div class="input-wrapper">
-            <textarea id="questionInput" rows="1" placeholder="输入你的问题..." onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
-            <button class="send-btn" id="sendBtn" onclick="askQuestion()" disabled>
-                <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-                </svg>
-            </button>
-        </div>
-        <div class="footer-note">本地运行 · 数据不出网 · 基于 RAG + Ollama</div>
-    </div>
-
     <script>
+        // ===== Mode switching =====
+        function switchMode(mode) {
+            document.getElementById("chatView").classList.toggle("active", mode === "chat");
+            document.getElementById("recView").classList.toggle("active", mode === "recommend");
+            document.getElementById("chatModeBtn").classList.toggle("active", mode === "chat");
+            document.getElementById("recModeBtn").classList.toggle("active", mode === "recommend");
+            document.getElementById("clearBtn").style.display = mode === "chat" ? "" : "none";
+            if (mode === "recommend") initRecForm();
+        }
+
+        // ===== Recommend =====
+        const PROVINCES = ["上海","云南","内蒙古","北京","吉林","四川","天津","宁夏","安徽","山东","山西","广东","广西","新疆","江苏","江西","河北","河南","浙江","海南","湖北","湖南","甘肃","福建","西藏","贵州","辽宁","重庆","陕西","青海","黑龙江"];
+        const CATEGORIES = ["物理类","历史类","综合","理科","文科"];
+
+        function initRecForm() {
+            const ps = document.getElementById("recProvince");
+            const cs = document.getElementById("recCategory");
+            if (ps.options.length <= 1) {
+                PROVINCES.forEach(p => { const o = document.createElement("option"); o.value = p; o.textContent = p; ps.appendChild(o); });
+                CATEGORIES.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; cs.appendChild(o); });
+            }
+        }
+
+        async function doRecommend() {
+            const score = document.getElementById("recScore").value;
+            const province = document.getElementById("recProvince").value;
+            const category = document.getElementById("recCategory").value;
+            const resultEl = document.getElementById("recResult");
+            const btn = document.getElementById("recSubmit");
+
+            if (!score || !province || !category) {
+                resultEl.innerHTML = '<div class="rec-error">请填写完整信息</div>';
+                return;
+            }
+
+            btn.disabled = true;
+            resultEl.innerHTML = '<div class="rec-loading">正在分析录取数据...</div>';
+
+            try {
+                const resp = await fetch("/recommend", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ score: parseInt(score), province, category })
+                });
+                const data = await resp.json();
+
+                if (data.error) {
+                    resultEl.innerHTML = `<div class="rec-error">${escapeHtml(data.error)}</div>`;
+                } else {
+                    renderRecResult(data, province, category, score);
+                }
+            } catch (e) {
+                resultEl.innerHTML = `<div class="rec-error">网络错误：${escapeHtml(e.message)}</div>`;
+            }
+            btn.disabled = false;
+        }
+
+        function renderRecResult(data, province, category, score) {
+            const el = document.getElementById("recResult");
+            const rank = data.user_rank;
+            let html = `<div class="rec-summary">📍 ${province} ${category} <strong>${score}分</strong>，估算位次约 <strong>${rank.toLocaleString()}</strong> 名</div>`;
+            html += '<div class="rec-columns">';
+            html += renderColumn("🔥 冲一冲", "chong", data.chong, "有希望但有风险");
+            html += renderColumn("✅ 稳一稳", "wen", data.wen, "较大把握");
+            html += renderColumn("🛡 保一保", "bao", data.bao, "保底选择");
+            html += '</div>';
+            el.innerHTML = html;
+        }
+
+        function renderColumn(title, cls, items, desc) {
+            let h = `<div class="rec-column ${cls}"><h3>${title}</h3>`;
+            if (items.length === 0) {
+                h += `<div class="rec-empty">暂无匹配院校</div>`;
+            } else {
+                items.forEach(s => {
+                    const batchLabel = s.batch ? `<div class="rec-batch">${escapeHtml(s.batch)}</div>` : '';
+                    const diff = s.rank_diff;
+                    const diffClass = diff <= 0 ? 'negative' : 'positive';
+                    const diffText = diff <= 0 ? `位次优 ${Math.abs(diff).toLocaleString()}` : `位次差 +${diff.toLocaleString()}`;
+                    h += `<div class="rec-card">
+                        <div class="rec-card-name" onclick="askSchool('${escapeHtml(s.name)}')">${escapeHtml(s.name)}</div>
+                        ${batchLabel}
+                        <div class="rec-card-info">
+                            <span>2025最低 ${s.min_score}分</span>
+                            <span>位次 ${s.min_rank.toLocaleString()}</span>
+                            <span>软科 #${s.soft_rank}</span>
+                            <span class="rec-rank-diff ${diffClass}">${diffText}</span>
+                        </div>
+                    </div>`;
+                });
+            }
+            h += '</div>';
+            return h;
+        }
+
+        function askSchool(name) {
+            switchMode('chat');
+            const input = document.getElementById("questionInput");
+            input.value = name + "怎么样？";
+            askQuestion();
+        }
+
+        // ===== Chat =====
         const messagesEl = document.getElementById("messages");
         const innerEl = document.getElementById("messagesInner");
         const emptyState = document.getElementById("emptyState");
@@ -448,31 +755,22 @@
         }
 
         function scrollToBottom() {
-            requestAnimationFrame(() => {
-                messagesEl.scrollTop = messagesEl.scrollHeight;
-            });
+            requestAnimationFrame(() => { messagesEl.scrollTop = messagesEl.scrollHeight; });
         }
 
         async function askQuestion() {
             const question = input.value.trim();
             if (!question) return;
-
-            // Hide empty state
             if (!hasMessages) {
                 emptyState.style.display = "none";
                 hasMessages = true;
                 clearBtn.classList.add("visible");
             }
-
-            // Add user message
             appendMessage("user", escapeHtml(question));
             input.value = "";
             input.style.height = "auto";
             sendBtn.disabled = true;
-
-            // Add loading
             const loadingEl = appendLoading();
-
             try {
                 const resp = await fetch("/ask", {
                     method: "POST",
@@ -480,7 +778,6 @@
                     body: JSON.stringify({ question })
                 });
                 const data = await resp.json();
-
                 loadingEl.remove();
                 if (data.answer) {
                     appendMessage("ai", formatAnswer(data.answer));
@@ -491,7 +788,6 @@
                 loadingEl.remove();
                 appendMessage("ai", '<span style="color:#ef4444">网络错误：' + escapeHtml(e.message) + '</span>');
             }
-
             sendBtn.disabled = !input.value.trim();
             input.focus();
         }
@@ -499,18 +795,14 @@
         function appendMessage(role, html) {
             const row = document.createElement("div");
             row.className = "msg-row " + role;
-
             const avatar = document.createElement("div");
             avatar.className = "msg-avatar";
             avatar.textContent = role === "user" ? "U" : "AI";
-
             const body = document.createElement("div");
             body.className = "msg-body";
-
             const bubble = document.createElement("div");
             bubble.className = "msg-bubble";
             bubble.innerHTML = html;
-
             body.appendChild(bubble);
             row.appendChild(avatar);
             row.appendChild(body);
@@ -522,18 +814,14 @@
         function appendLoading() {
             const row = document.createElement("div");
             row.className = "msg-row ai loading";
-
             const avatar = document.createElement("div");
             avatar.className = "msg-avatar";
             avatar.textContent = "AI";
-
             const body = document.createElement("div");
             body.className = "msg-body";
-
             const bubble = document.createElement("div");
             bubble.className = "msg-bubble";
             bubble.innerHTML = '<span class="dot"></span><span class="dot"></span><span class="dot"></span>';
-
             body.appendChild(bubble);
             row.appendChild(avatar);
             row.appendChild(body);
@@ -565,7 +853,6 @@
                 .replace(/\n/g, "<br>");
         }
 
-        // Auto-focus input on load
         window.addEventListener("load", () => input.focus());
     </script>
 </body>
